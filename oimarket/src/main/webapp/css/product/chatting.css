@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.chat{
+	display:flex;
+	height: 100%;
+	flex-direction: column;
+	
+}
+.chattingbox{
+	padding: 30px;
+	background-color: #8bc34a17;;
+	height: 75%;
+	
+}
+
+.belowArea{
+	display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+}
+
+html , body {height: 100%}
+
+.sendmessage{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	}
+	
+.sendtime{
+	color:#808080ad;
+	font-size: 12px;
+	margin-right: 10px;
+	}
+.sendtext{
+	font-size: 17px;
+}
+.send{
+  height: 34px;
+  width: 96px;
+  border-radius: 5px;
+  font-family: 'GmarketSansMedium';
+  background-color: #eeeeee7d;
+  border: none;
+  }
+.receivemessage{
+	display: flex;
+}
+  
+ .btnbox{
+ text-align: right;
+ padding: 0px;
+ }
+
+.textbox{
+	width: 100%;
+	padding: 15px;
+	resize: none;
+	border: none;
+	
+}
+
+.belowArea{
+	border: 1px solid #eeeeee;
+    padding: 10px;
+    }

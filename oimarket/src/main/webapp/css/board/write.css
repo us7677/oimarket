@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.writefile{
+	display: flex;
+	align-items: center;
+}
+.writeboard{
+	display: flex;
+	justify-content: flex-end;
+}
+.writeboardbtn{
+	background-color: #60AC3F;
+	border-style: none;
+	border-radius: 10px;
+	color: white;
+	margin: 10px 0px 0px 5px;
+}
+.updatetitle{
+	font-weight: bold;
+	font-size: 25px;
+}

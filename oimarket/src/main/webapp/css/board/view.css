@@ -1,0 +1,152 @@
+@charset "UTF-8";
+.parea{
+	display: flex;
+	align-items: center;
+}
+.hpimg{
+	width: 50px;
+	height: 50px;
+	border: solid 1px #e8e8e8;
+	border-radius: 50%; /*둥근모서리*/
+}
+.mid{
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 10px;
+}
+.biginfobox{
+	width: 100%;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.infobox{
+	padding-right: 5px;
+}
+.infoitem{
+	margin-left: 10px;
+}
+.infoboxdate{
+	font-size: 10px;
+}
+.btitle{
+	font-family: 'GmarketSansMedium';	
+	font-weight: bold;
+	font-size: 15px;
+}
+.bcontent{
+	height: 400px;
+}
+
+.reply{
+	display: flex;
+	align-items: center;
+	margin: 10px 0px 10px 0px;
+	border-top: 1px solid #e8e8e8;
+	padding-top: 10px;
+}
+.replyitem{
+	margin-right: 10px;
+}
+.rereply img{
+    margin: 10px 0px 10px 40px;
+}
+.rereplybottom{
+	display: flex;
+	align-items: center;
+	margin: 10px 0px;
+}
+.rereply{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.increasebtn{
+	border-style: none;
+	background-color: white;
+}
+.budbtn{
+	background-color: #60AC3F;
+	border-style: none;
+	border-radius: 10px;
+	color: white;
+	margin-left: 10px;
+}
+.replywritebox{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px 5px 0px;
+    border-top: 1px solid #e8e8e8;
+}
+.rcontent{
+	resize: none;
+	
+}
+.rwritebtn{
+	background-color: #60AC3F;
+	border-style: none;
+	border-radius: 10px;
+	color: white;
+	height: 36px;
+	margin-left: 10px;
+}
+.bbtnbox{
+	display: flex;
+	justify-content: flex-end;
+}
+.reredate{
+	font-size: 12px;
+}
+.reremid{
+	font-size: 15px;
+	font-weight: bold;
+	flex-wrap: nowrap;
+}
+.rereitem{
+	margin-left: 10px;
+}
+#rrcontent{
+	resize: none;
+    width: 314.48px;
+}
+.rrbtn{
+	background-color: #60AC3F;
+	border-style: none;
+	border-radius: 10px;
+	color: white;
+	height: 38px;
+	margin-left: 10px;
+}
+.viewfilearea{
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+	border-top: 1px solid #e8e8e8;	
+}
+.viewfile{
+	font-weight: bold;
+	font-size: 15px;
+}
+.bfile{
+	padding-left: 5px;
+}
+.rereview{
+	background-color: #60AC3F;
+	border-style: none;
+	border-radius: 10px;
+	color: white;
+}
+.rereviewbox{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+
+

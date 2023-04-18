@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+		
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.logo:hover{
+	opacity: 0.8
+}
+
+.signupForm{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+.logo{
+	width: 70px;
+	margin: 30px;
+}
+
+    
+.mtext{
+	margin: 15px;
+}
+
+h5{
+	margin: 0px;
+}
+
+h3{
+	margin-top: 0px;
+	 font-family: 'GmarketSansMedium';
+}
+
+.signtext{
+	padding-left: 50px;
+}
+.wrap input{
+	padding: 4px;
+	margin: 3px;
+	border-radius: 5px;
+	border: 1px solid #eeeeee;
+}
+
+.checkconfirm{
+	font-size: 10px;
+}
+
+.idcheck , .phone , .confirmphonebtn{
+	border: none;
+	background-color:   #60ac3f;
+	border-radius: 5px;
+	color: white;
+	font-family: 'GmarketSansMedium';	
+	padding: 3px 8px;
+	
+}
+
+.mimg{
+	border: none !important;
+}
+
+.span{ /*사는지역과 성별을 나란히하기위해! 없어도됨*/
+	display: flex;
+}
+.mresidence{
+	margin-right: 40px;
+}
+
+
+.confirmphone{
+	display: none;
+	align-items: center;
+}
+
+.confirmphonebtn{
+	margin-left: 5px;
+}
+.mphone input{
+	width: 40px;
+}
+
+.premimg{ /*첨부파일 이미지 미리보기*/
+	width: 100px;
+    height: 100px;
+    border: 1px solid #eeeeee;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.signup{
+	  font-family: 'GmarketSansMedium';
+	  font-size:25px;
+	  font-weight:bold;
+	  background-color : #60ac3f;
+	  color: white;
+	  padding: 25px 90px;
+	  border: none;
+	  border-radius: 20px;
+	  margin: 50px 0px 50px 0px;
+	  
+}
+
+.signup:hover , .idcheck:hover , .phone:hover ,.confirmphonebtn:hover{
+	 background-color : #2c9200;
+}

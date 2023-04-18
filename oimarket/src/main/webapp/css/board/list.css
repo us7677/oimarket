@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.mainmenu{
+	width : 95% !important;
+	display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0px;
+    }
+.key{
+	padding-left: 0px;
+}    
+.contentbox{
+	width : 95%;
+	border-bottom: 1px solid #e8e8e8;
+	margin-top: 20px;
+}
+.contentbc{
+	font-family: 'GmarketSansMedium';
+	font-weight: bold;
+	color: #60AC3F;
+	font-size: 12px;
+	border-radius: 10px;
+}
+.contenttitle{
+	margin-bottom: 10px;	
+}
+.contenttitle a{
+	font-family: 'GmarketSansMedium';
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 10px;
+}
+.bcbtn{
+	font-family: 'GmarketSansMedium';
+	border: none;
+	background-color: #60AC3F;
+	color: white;
+	border-radius: 10px;
+	margin-left: 8px;
+	width: 40px;
+	height: 40px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;	
+	font-size: 8px;
+}
+.searchbox{
+	width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbox input{
+	width: 150px;
+	margin: 0px 12px;
+}
+.boardTable img{
+	width: 50px;
+	height: 50px;
+	border: solid 1px #e8e8e8;
+	border-radius: 50%; /*둥근모서리*/
+}
+.contentmid{
+	vertical-align: top;
+	font-size: 12px;
+	font-family: 'GmarketSansMedium';
+	margin-left: 5px;
+}
+.contentdate{
+	vertical-align: top;
+	font-size: 5px;
+}
+
+.contentinfo{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.contentinfoitem{
+	    padding-right: 5px;
+}
+.all{
+	margin: 0px !important;
+}
+
+.subcontentbox{
+	margin-left: 20px;
+}

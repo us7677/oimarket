@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.Updatewrap{
+	width: 600px;
+    margin: 0 auto;
+    display: flex;
+	justify-content: center;
+}
+
+.Updatewrap img {
+	width: 200px !important;
+}
+
+.updateLogo{
+	display: flex;
+}
+
+
+
+.updatebtn{
+	border: none;
+	background-color:   #60ac3f;
+	border-radius: 5px;
+	color: white;
+	font-family: 'GmarketSansMedium';	
+	padding: 3px 8px;	
+	display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.mresidence , .nowpwd ,   .newPwd{
+	border: 1px solid #eeeeee; border-radius: 5px;
+	margin: 5px; padding: 5px;
+}	

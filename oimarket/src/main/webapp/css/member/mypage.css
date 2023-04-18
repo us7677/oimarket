@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+.asd img {
+	width: 100px;
+    display: flex !important;
+    padding-top: 10%;
+}
+
+/* mypage 로고 위치 */
+.mypage_logo{
+	margin: 0 auto;
+}
+
+.mypageInfo{
+	display: flex;
+	margin: 5px;
+}
+
+.mypageH{
+	font-weight: bold;
+    margin-right: 20px;
+    font-size: 16px; 
+}
+
+.updatebtn {
+	border: none;
+	background-color:   #60ac3f;
+	border-radius: 5px;
+	color: white;
+	font-family: 'GmarketSansMedium';	
+	padding: 3px 8px;
+}
+
+.deletebtn {
+	border: none;
+	background-color:   #60ac3f;
+	border-radius: 5px;
+	color: white;
+	font-family: 'GmarketSansMedium';	
+	padding: 3px 8px;
+	margin-top: 20px;
+}
+
+.logoutbtn{
+	text-decoration: none;
+	background-color:   #60ac3f;
+	border-radius: 5px;
+	color: white;
+	font-family: 'GmarketSansMedium';	
+	padding: 3px 8px;
+	margin-left: 290px;
+		
+}
+
+.deleteLine{
+	display: flex;
+    flex-direction: column;
+}
+
+.updateLine{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;	
+}
+
+.delete_input{
+	margin: 10px 70px 0px 0px;
+}
+
+.mypageInfobox {
+	margin-top: 5%;
+	margin-left: 20px;
+	padding-bottom: 80px;
+}
+
+.mypage_Box_name{
+	font-family: 'GmarketSansMedium';
+	padding: 25px 25px 15px 25px;
+    text-align: center;
+}
+
+.mypage_mainbox{
+	padding-bottom: 80px;
+}
+
+
+.product_box{
+	display: flex;
+	margin-bottom: 40px;
+	padding: 15px 15px 25px 15px;
+    border-bottom: 1px solid #c4d1bf;
+}
+
+/* ------------- 제품 박스 ---------- */
+
+
+/* 제품 text */
+.product_textbox{
+	margin-left: 20px;
+}
+
+/* 제품 카테고리*/
+.product_category{
+	font-size: 12px;	
+	color: #4c4747;
+}
+/* 제품 제목 */
+.product_title{
+	font-size: 16px;
+    font-weight: bold;	
+}
+
+/* 제품 가격 */
+.product_price{
+	color: #e94141;
+	font-size: 13px;
+}
+
+
+/* 제품 등록일*/
+.product_date{
+	font-size: 12px;
+    color: #4c4747;
+}
+
+/* 제품 상태 */
+.p_state{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+	padding: 6px;
+    border-radius: 20px;
+    background-color: #60ac3f;
+    font-family: 'GmarketSansMedium';
+    color: white;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+/* 게시판 출력 */
+.mypageBoardbox{
+	font-size: 13px;
+}
+
+
+
+
